@@ -158,7 +158,6 @@ with st.expander(form_label, expanded=st.session_state.expander_state):
                     st.session_state.players[st.session_state.editing_index] = new_data
                     st.session_state.editing_index = None
                     st.session_state.expander_state = False
-                    st.session_state.expander_version += 1
                 else:
                     # ➕ DODAWANIE → zostaw otwarty
                     st.session_state.players.append(new_data)
