@@ -1,0 +1,28 @@
+{
+    "app": 1,
+    "app_45": 2,
+    "app_90": 3,
+    "goal": 5,
+    "assist": 3,
+    "clean_sheet_gk": 5,
+    "clean_sheet_df": 2,
+    "yellow": -2,
+    "red": -5,
+    "own_goal": -4,
+    "shots_on_target": 1, // gk, df every shot, md, fw every 2 shots
+    "drybbling": 1,
+    "tackle/block": 1,
+    "save": 1,
+    "goal_conceded_gk": -2,
+    "goal_conceded_df": -1, // not penalties
+    "motm": 2,
+    "missed_penalty": -3,
+    "saved_penalty": 5, // has to be on target
+    "penalty_goal": 3,
+    "received_penalty": 2,
+    "procured_penalty": -3,
+    "conceded_penalty": -1,
+    "lost_posessions": -1, // every 5 losses
+    "captain": true, // *2 points
+    "max_bench": 5 // any position
+}
